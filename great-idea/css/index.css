@@ -75,7 +75,7 @@ nav {
   	top: 0; /* Position the navbar at the top of the page */
 	margin: auto;
 	padding-bottom: 10px;
-	width: 876px;
+	width: 880px;
 }
 
 nav a {
@@ -95,12 +95,12 @@ nav a:hover {
 }
 
 nav .logo {
-	padding-left: 50px;
+	padding-left: 20px;
 }
 
 header {
 	line-height: 0.75;
-	margin-top: 100px;
+	margin-top: 50px;
 	width: 876px;
 	display: flex;
 	justify-content: space-around;
@@ -127,16 +127,13 @@ header .title button:hover{
 
 header img {
 	margin-bottom: 70px;
-}
-
-main {
-	margin-top: 30px; 
+	margin-left: 5px;
 }
 
 .top-content {
 	width: 876px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .top-content div {
@@ -176,4 +173,69 @@ footer {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
+}
+
+.services-top-content {
+	margin-top: 0px; 
+	margin-bottom: 20px;
+}
+
+.services-top-content h1{
+	font-size: 20px;
+}
+
+.flexy-flex {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 880px;
+}
+
+.flexy-flex div {
+	border: 2px solid black;
+	background-color: lightgrey;
+	text-align: justify;
+	width: 380px;
+	height: 270px;
+	padding: 30px;
+	margin: 20px;
+}
+
+.flexy-flex div button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
+	border-radius: 8px;
+	margin-top: 10px;
+	/* margin-bottom: 50px; */
+}
+
+section ul {
+	list-style-type: disc;
+}
+
+.services-bottom-content {
+	display: flex;
+	width: 880px;
+	justify-content: center;
+	margin: 20px;
+}
+
+.services-bottom-content div {
+	margin: 10px;
+}
+
+.services-bottom-content p {
+	text-align: justify;
+}
+
+hr {
+	border: 1px solid black;
+	width: 880px;
+}
+
+.tab { 
+	margin-left: 40px; 
+	line-height: 1.5;
 }
