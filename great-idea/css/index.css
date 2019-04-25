@@ -211,13 +211,13 @@ header .title button:hover {
 header img {
   /* margin: auto 0; */
   margin-bottom: 20px;
-  width: 50%;
+  /* width: 50%; */
 }
 
-.services-header-img {
+/* .services-header-img {
 	margin-bottom: 20px;
   	width: 880px;
-}
+} */
 
 .top-content {
   width: 880px;
